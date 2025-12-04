@@ -13,8 +13,8 @@ export const routesConfig: any = {
       href: "/experience",
     },
     {
-      title: "Contributions",
-      href: "/contributions",
+      title: "Certifications",
+      href: "/contributions", // Keeping the route as /contributions to avoid renaming directories, but title is Certifications
     },
     {
       title: "Contact",

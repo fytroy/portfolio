@@ -22,10 +22,10 @@ export default function ContributionCard({
             <div className="flex h-[170px] flex-col justify-between rounded-md p-6 sm:h-[170px]">
               <div className="flex flex-row justify-between">
                 <h3 className="font-bold flex space-x-2 items-center">
-                  <Icons.gitRepoIcon size={20} />
+                  <Icons.star size={20} />
                   <span>{contribution.repo}</span>
                 </h3>
-                <Icons.gitBranch size={20} />
+                {/* Removed gitBranch icon as it doesn't fit certification context well, maybe use nothing or a checkmark */}
               </div>
               <div className="space-y-4">
                 <p className="text-sm text-muted-foreground">
