@@ -10,8 +10,8 @@ export const siteConfig = {
     github: "https://github.com/fytroy",
   },
   ogImage: "https://fytroy.github.io/roygitonga.io/img/rodney_photo.jpg",
-  iconIco: "/favicon.ico", // Using local default for now
-  logoIcon: "/favicon.ico", // Using local default for now
+  iconIco: "https://fytroy.github.io/roygitonga.io/img/rodney_photo.jpg",
+  logoIcon: "https://fytroy.github.io/roygitonga.io/img/rodney_photo.jpg",
   keywords: [
     "Rodney Roy Gitonga",
     "Data Analytics Officer",

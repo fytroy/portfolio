@@ -40,7 +40,18 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"), // Approximate date
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/bankinwarehouse2.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Project Overview",
+            description: "The AI Banking Analyst project demonstrates a cutting-edge Text-to-SQL Enterprise Solution. It is designed to act as an intelligent intermediary between complex banking data and business users, allowing them to query data using natural language.",
+            imgArr: []
+        },
+        {
+            title: "Key Features",
+            description: "Translates English questions into MS-SQL queries. Executes queries against a simulated 115,000+ record Star Schema database. Synthesizes results into actionable insights.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "This project demonstrates the creation and deployment of a Generative AI application capable of analyzing a complex, professional-grade Tier 1 Banking Data Warehouse.",
@@ -66,7 +77,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/bankinwarehouse3.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Pipeline Architecture",
+            description: "Automated ETL pipeline integrating Web Scraping (American Banker) and API Extraction (Frankfurter API) to feed a data warehouse like Google BigQuery.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "This project is a data pipeline that extracts, transforms, and loads financial data from two main sources: Web Scraping: It scrapes financial news articles related to cybersecurity from American Banker. API Extraction: It fetches the latest USD exchange rates from the Frankfurter API.",
@@ -91,7 +108,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/bankinwarehouse.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Data Warehouse Solution",
+            description: "A comprehensive solution for transactional data analysis, fraud detection support, and operational reporting in a banking context.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "This project is a comprehensive data warehouse solution for a banking institution, designed to provide insights into transactional data, support fraud detection, and facilitate operational reporting.",
@@ -115,7 +138,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/customer_segmentation.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Analysis Overview",
+            description: "Leverages Python (Pandas, Scikit-learn) for sales forecasting, product performance, and customer segmentation using clustering.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "This project leverages Python (Pandas, Scikit-learn) to conduct comprehensive e-commerce analysis. It processes transactional data for sales forecasting, product performance, and customer segmentation.",
@@ -140,7 +169,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "", // No image provided in the portfolio summary except screenshot text
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Dashboard Features",
+            description: "Interactive Power BI dashboards visualizing monthly P&L and operational risk metrics, backed by optimized SQL queries.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A simulated project demonstrating the full BI lifecycle: defining metrics, writing optimized SQL queries and views, and building interactive Power BI dashboards to visualize monthly P&L and operational risk metrics.",
@@ -165,7 +200,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/dashboard-screenshot.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "App Capabilities",
+            description: "Integrates external APIs and internal system data, featuring Google Gemini AI for automated news/document summarization.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A Streamlit application designed as a personal data hub. It integrates external APIs (CoinDesk, OpenWeather) and internal system data, featuring Google Gemini AI integration for automated news/document summarization.",
@@ -190,7 +231,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/system_report_output.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Automation Details",
+            description: "Automates collection of Windows system metrics, generates HTML reports, and emails them via SMTP for proactive monitoring.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A Python script that automates the collection of critical Windows system metrics, generates a detailed, easily readable HTML report, and emails it (SMTP).",
@@ -215,7 +262,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/sqlite_log.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Utility Features",
+            description: "Logs real-time system activity (network, resource usage) to SQLite using psutil.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A Python command-line application that uses `psutil` to log and monitor real-time system activity (network traffic, resource usage) into an SQLite database.",
@@ -240,7 +293,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "https://fytroy.github.io/roygitonga.io/img/google_drive.png",
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Sync Functionality",
+            description: "Ensures continuous synchronization between local folder and cloud storage using Google Drive API and OAuth 2.0.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A Python script utilizing the Google Drive API to ensure continuous synchronization between a local folder and cloud storage.",
@@ -265,7 +324,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "", // No image
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Tool Description",
+            description: "Lightweight API testing and interaction tool directly from the command line using Python Requests.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A simple, terminal-based REST API client implemented in Python (Requests Library). This tool allows for lightweight API testing and interaction directly from the command line, demonstrating competency in backend communication protocols.",
@@ -289,7 +354,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "", // No image
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Web App Overview",
+            description: "A Django-based platform for ordering custom 3D printed items, featuring payment gateway integration.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A full-stack web application built with Python/Django for ordering and requesting custom 3D printed items. Demonstrates database-driven development, user interaction handling, and payment gateway integration principles.",
@@ -313,7 +384,13 @@ export const Projects: ProjectInterface[] = [
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-06-01"),
     companyLogoImg: "", // No image
-    pagesInfoArr: [],
+    pagesInfoArr: [
+        {
+            title: "Website Details",
+            description: "Responsive front-end website for trip booking and scheduling using core web technologies.",
+            imgArr: []
+        }
+    ],
     descriptionDetails: {
       paragraphs: [
         "A front-end website showcasing trip booking and scheduling for sailing in the Coast of Kenya. Focuses on responsive design and user experience using core web technologies.",
