@@ -19,11 +19,10 @@ import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpg";
 
 export const metadata: Metadata = {
-  title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
-  description: `${pagesConfig.home.metadata.description} This open-source Next.js portfolio template is customizable to showcase your skills and projects.`,
+  title: `${pagesConfig.home.metadata.title} | Data Analytics Portfolio`,
+  description: `${pagesConfig.home.metadata.description}`,
   alternates: {
     canonical: siteConfig.url,
   },
@@ -37,27 +36,8 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Data Analytics Officer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
-  };
-
-  // Structured data for website as a software application (template)
-  const softwareSchema = {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    name: "Next.js Portfolio Template",
-    applicationCategory: "DeveloperApplication",
-    operatingSystem: "Web",
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
-    },
-    author: {
-      "@type": "Person",
-      name: siteConfig.authorName,
-      url: siteConfig.url,
-    },
   };
 
   return (
@@ -67,21 +47,16 @@ export default function IndexPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
-      <Script
-        id="schema-software"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
-      />
 
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
           <Image
-            src={profileImg}
+            src={siteConfig.ogImage}
             height={100}
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Full Stack Developer Portfolio"
+            alt="Rodney Roy Gitonga - Data Analytics Officer"
             priority
           />
           <AnimatedText
@@ -89,29 +64,28 @@ export default function IndexPage() {
             delay={0.2}
             className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Naman Barkiya
+            {siteConfig.authorName}
           </AnimatedText>
           <AnimatedText
             as="h3"
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Full Stack Developer
+            Data Analytics Officer
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Open-source Next.js portfolio template. Fork this on GitHub to
-              create your own developer portfolio.
+              Specializing in transforming complex financial and operational data into actionable business insights.
             </p>
           </div>
 
           <div className="flex flex-col mt-10 items-center justify-center sm:flex-row sm:space-x-4 gap-3">
             <AnimatedText delay={0.6}>
               <Link
-                href={"https://github.com/namanbarkiya"}
+                href={siteConfig.links.github}
                 target="_blank"
                 className={cn(buttonVariants({ size: "lg" }))}
-                aria-label="View Naman Barkiya's GitHub profile"
+                aria-label="View Rodney's GitHub profile"
               >
                 <Icons.gitHub className="w-4 h-4 mr-2" /> GitHub
               </Link>
@@ -126,7 +100,7 @@ export default function IndexPage() {
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
+                aria-label="Contact Rodney"
               >
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>
@@ -203,11 +177,6 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-        {/* <div className="mx-auto text-center md:max-w-[58rem]">
-                    <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                        See all the relevant experiences.
-                    </p>
-                </div> */}
       </AnimatedSection>
       <AnimatedSection
         direction="down"
