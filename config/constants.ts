@@ -60,7 +60,35 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Power BI"
+  | "Data Analysis"
+  | "Financial Analysis"
+  | "Power Apps"
+  | "IT Support"
+  | "Networking"
+  | "System Admin"
+  | "Management"
+  | "Windows Server"
+  | "cPanel"
+  | "Streamlit"
+  | "Google Gemini API"
+  | "API Integration"
+  | "psutil"
+  | "SMTP"
+  | "HTML Generation"
+  | "SQLite"
+  | "CLI"
+  | "Google Drive API"
+  | "OAuth 2.0"
+  | "Requests Library"
+  | "Command Line Interface"
+  | "HTML/CSS"
+  | "Pandas"
+  | "Scikit-learn"
+  | "Data Storytelling"
+  | "Data Modeling"
+  | "DAX";
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +97,11 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Data Analytics"
+  | "Business Intelligence"
+  | "Automation"
+  | "Machine Learning";
 
 export type ValidExpType = "Personal" | "Professional";
 

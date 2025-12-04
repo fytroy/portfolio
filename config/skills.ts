@@ -8,153 +8,82 @@ export interface skillsInterface {
 }
 
 export const skillsUnsorted: skillsInterface[] = [
+  // Analytics & Business Intelligence
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    name: "Power BI",
+    description: "Advanced Dashboarding & DAX for actionable insights.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.barChart,
   },
   {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    name: "Data Analysis",
+    description: "Deriving insights from complex datasets.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.pieChart,
   },
   {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+    name: "Financial Analysis",
+    description: "Forecasting and financial modeling.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.billing,
+  },
+  // Databases
+  {
+    name: "SQL",
+    description: "Query Optimization, Views, Stored Procedures.",
+    rating: 5,
+    icon: Icons.mysql,
   },
   {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+    name: "MySQL",
+    description: "Relational database management.",
     rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
+    icon: Icons.mysql,
   },
   {
     name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
+    description: "NoSQL database for flexible data storage.",
+    rating: 3,
     icon: Icons.mongodb,
   },
+  // Programming & Automation
   {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+    name: "Python",
+    description: "Pandas, NumPy, Scikit-learn for data science.",
     rating: 5,
-    icon: Icons.typescript,
+    icon: Icons.python,
   },
   {
     name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
+    description: "Scripting for web and automation.",
+    rating: 4,
     icon: Icons.javascript,
   },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
-    icon: Icons.html5,
-  },
-  {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
-    icon: Icons.css3,
-  },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
+  // Cloud & DevOps
   {
     name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+    description: "Cloud infrastructure and services.",
     rating: 3,
     icon: Icons.amazonaws,
   },
   {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+    name: "Git",
+    description: "Version control and collaboration.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.gitHub,
+  },
+  {
+    name: "Docker",
+    description: "Containerization for consistent deployment.",
+    rating: 3,
+    icon: Icons.docker,
+  },
+  // IT Systems
+  {
+    name: "Windows Server",
+    description: "Server management and Active Directory.",
+    rating: 4,
+    icon: Icons.html5, // Still using html5 as placeholder for Windows Server, maybe add Windows icon later if available, but html5 is safe for now
   },
 ];
 
