@@ -8,153 +8,178 @@ export interface skillsInterface {
 }
 
 export const skillsUnsorted: skillsInterface[] = [
+  // Analytics & Business Intelligence
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    name: "Power BI",
+    description: "Advanced Dashboarding & DAX for actionable insights.",
     rating: 5,
-    icon: Icons.nextjs,
+    icon: Icons.barChart,
   },
   {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    name: "Data Analysis & Data Modeling",
+    description: "Deriving insights and structuring complex datasets.",
     rating: 5,
-    icon: Icons.react,
+    icon: Icons.pieChart,
   },
   {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+    name: "Financial Analysis & Forecasting",
+    description: "Financial modeling and predictive analysis.",
+    rating: 5,
+    icon: Icons.billing,
+  },
+  {
+    name: "Data Storytelling & Visualization",
+    description: "Communicating insights through effective visualization.",
+    rating: 5,
+    icon: Icons.presentation,
+  },
+  {
+    name: "ETL & Data Warehouse Concepts",
+    description: "Extract, Transform, Load processes and warehousing.",
+    rating: 5,
+    icon: Icons.database,
+  },
+  {
+    name: "Microsoft Excel (Advanced)",
+    description: "Advanced spreadsheet functions and data manipulation.",
+    rating: 5,
+    icon: Icons.post, // FileText as placeholder for Excel
+  },
+
+  // Databases & Data Warehousing
+  {
+    name: "SQL",
+    description: "Query Optimization, Views, Stored Procedures.",
+    rating: 5,
+    icon: Icons.database,
+  },
+  {
+    name: "MySQL & MongoDB",
+    description: "Relational and NoSQL database management.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.mongodb, // MongoDB icon for both or separate if preferred
   },
   {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+    name: "Database Administration (Basic)",
+    description: "User management, backup, and recovery.",
+    rating: 3,
+    icon: Icons.settings,
+  },
+  {
+    name: "Data Integrity & Validation",
+    description: "Ensuring accuracy and consistency of data.",
     rating: 4,
-    icon: Icons.nestjs,
+    icon: Icons.check,
   },
   {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+    name: "Data Engineering Principles",
+    description: "Designing and building data pipelines.",
+    rating: 4,
+    icon: Icons.work,
+  },
+
+  // Programming & Automation
+  {
+    name: "Python",
+    description: "Pandas, NumPy, Scikit-learn for data science.",
     rating: 5,
-    icon: Icons.express,
+    icon: Icons.python,
   },
   {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
+    name: "JavaScript / AngularJS",
+    description: "Web development and frontend scripting.",
+    rating: 4,
     icon: Icons.javascript,
   },
   {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
+    name: "REST APIs & Integration",
+    description: "Building and consuming APIs.",
     rating: 4,
-    icon: Icons.html5,
+    icon: Icons.link,
   },
   {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
-    icon: Icons.css3,
-  },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
+    name: "Process Automation",
+    description: "Automating workflows with Power Apps and Python.",
+    rating: 5,
+    icon: Icons.zap, // Using Zap for automation
   },
 
+  // Cloud & DevOps
   {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
+    name: "Oracle Cloud Infrastructure (OCI)",
+    description: "Cloud services and architecture on OCI.",
+    rating: 3,
+    icon: Icons.cloud,
   },
   {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+    name: "Amazon Web Services (AWS)",
+    description: "AWS cloud services.",
     rating: 3,
     icon: Icons.amazonaws,
   },
   {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+    name: "Git & Version Control",
+    description: "Source code management and collaboration.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.gitHub,
+  },
+  {
+    name: "Docker & Containerization",
+    description: "Containerizing applications for consistency.",
+    rating: 3,
+    icon: Icons.docker,
+  },
+
+  // IT Systems & Support
+  {
+    name: "Windows Server & Active Directory",
+    description: "Server administration and AD management.",
+    rating: 4,
+    icon: Icons.server,
+  },
+  {
+    name: "Network Troubleshooting",
+    description: "TCP/IP, DNS, and connectivity issues.",
+    rating: 4,
+    icon: Icons.network,
+  },
+  {
+    name: "ITIL Principles & Service Desk",
+    description: "IT service management best practices.",
+    rating: 4,
+    icon: Icons.help,
+  },
+  {
+    name: "System Hardening & Security",
+    description: "Securing systems against vulnerabilities.",
+    rating: 4,
+    icon: Icons.security,
+  },
+
+  // Soft Skills
+  {
+    name: "Clear Communication",
+    description: "Effective verbal and written communication.",
+    rating: 5,
+    icon: Icons.contact,
+  },
+  {
+    name: "Problem Resolution",
+    description: "Analytical thinking and troubleshooting.",
+    rating: 5,
+    icon: Icons.infoMark,
+  },
+  {
+    name: "Cross-functional Collaboration",
+    description: "Working effectively with diverse teams.",
+    rating: 5,
+    icon: Icons.user,
+  },
+  {
+    name: "Adaptability & Learning",
+    description: "Quickly learning new technologies and adapting.",
+    rating: 5,
+    icon: Icons.star,
   },
 ];
 
@@ -162,4 +187,4 @@ export const skills = skillsUnsorted
   .slice()
   .sort((a, b) => b.rating - a.rating);
 
-export const featuredSkills = skills.slice(0, 6);
+export const featuredSkills = skills.slice(0, 8); // Showing more featured skills
