@@ -35,7 +35,7 @@ export default function IndexPage() {
     "@type": "Person",
     name: siteConfig.authorName,
     url: siteConfig.url,
-    image: siteConfig.ogImage,
+    image: new URL(siteConfig.ogImage, siteConfig.url).toString(),
     jobTitle: "Data Analytics Officer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
