@@ -18,7 +18,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "gab-officer",
     position: "Data Analytics Officer",
-    company: "GULF AFRICAN BANK",
+    company: "Gulf African Bank",
     location: "Nairobi, Kenya",
     startDate: new Date("2025-09-01"),
     endDate: "Present",
@@ -43,7 +43,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "gab-intern-engineer",
     position: "Data Analytics Engineer Intern",
-    company: "GULF AFRICAN BANK",
+    company: "Gulf African Bank",
     location: "Nairobi, Kenya",
     startDate: new Date("2025-07-01"),
     endDate: new Date("2025-09-01"),
@@ -64,7 +64,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "gab-intern-support",
     position: "IT Support Specialist Intern",
-    company: "GULF AFRICAN BANK",
+    company: "Gulf African Bank",
     location: "Nairobi, Kenya",
     startDate: new Date("2025-01-01"),
     endDate: new Date("2025-07-01"),
@@ -87,8 +87,8 @@ export const experiences: ExperienceInterface[] = [
   },
   {
     id: "voi-winners",
-    position: "OFFICE ACCOUNTANT & IT ASSISTANT",
-    company: "VOI WINNERS HOUSING COOPERATIVE SOCIETY LIMITED",
+    position: "Office Accountant & IT Assistant",
+    company: "Voi Winners Housing Cooperative Society Limited",
     location: "Voi, Kenya",
     startDate: new Date("2024-05-01"),
     endDate: new Date("2025-01-01"),
@@ -112,7 +112,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "numeral-iot",
     position: "Junior Software Developer Intern",
-    company: "NUMERAL IOT LIMITED",
+    company: "Numeral IoT Limited",
     location: "Kenya",
     startDate: new Date("2022-06-01"),
     endDate: new Date("2022-10-01"),

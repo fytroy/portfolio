@@ -1,83 +1,143 @@
-# Rodney Roy Gitonga | Data Analytics Portfolio
+# Next.js 16 Developer Portfolio Template
 
-**Data Analytics Officer | Business Intelligence Specialist | Data Engineer**
+A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
 
-Rodney Roy Gitonga is a Data Analytics Officer specializing in transforming complex financial and operational data into actionable business insights. With a strong background in Power BI, SQL, Python, and Data Engineering, he helps organizations make data-driven decisions through advanced analytics and visualization.
+## ✨ Key Features
 
-## 🚀 Key Skills
+- **Professional Experience Timeline**: Showcase your career journey with a visually appealing timeline
+- **Project Showcase**: Display your technical projects with detailed information and live demos
+- **Multiple Themes**: Dark, Light, Retro, Cyberpunk, Aurora, Synthwave, and Paper themes
+- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
+- **100% Performance Score**: Fully optimized for speed and Core Web Vitals
+- **SEO-Ready**: Structured data, meta tags, and optimized content
+- **Modern Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS, and shadcn/ui
+- **Easy Customization**: Well-organized code structure with minimal effort required
+- **Animations**: Subtle animations for engaging user experience
+- **Analytics Integration**: Ready for Google Analytics tracking
+- **Contact Form**: Functional contact form with validation
+- **Open Source**: Free to use and modify for your personal portfolio
 
-- **Analytics & BI:** Power BI, Data Analysis, Financial Analysis, Business Intelligence
-- **Databases:** SQL, MySQL, MongoDB
-- **Programming:** Python (Pandas, NumPy, Scikit-learn), JavaScript
-- **Cloud & DevOps:** AWS, Docker, Git, Oracle Cloud Infrastructure (OCI)
-- **IT Systems:** Windows Server, System Administration
+## 🚀 Demo
 
-## 💼 Professional Experience
+View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz)
 
-### Data Analytics Officer @ [GULF AFRICAN BANK](https://gulfafricanbank.com)
-*(Sep 2025 - Present)*
-- Managing and optimizing ETL processes for timely reporting.
-- Designing Power Apps solutions to automate workflows.
-- Performing comprehensive data analysis for strategic planning.
-- Developing foundational data layers for Power BI dashboards.
+https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
 
-### Data Analytics Engineer Intern @ [GULF AFRICAN BANK](https://gulfafricanbank.com)
-*(Jul 2025 - Sep 2025)*
-- Built PowerApps solutions to streamline branch processes.
-- Designed interactive Power BI dashboards for financial metrics.
-- Integrated Power BI with MySQL servers for real-time reporting.
+## 🛠️ Tech Stack
 
-### IT Support Specialist Intern @ [GULF AFRICAN BANK](https://gulfafricanbank.com)
-*(Jan 2025 - Jul 2025)*
-- Provided end-user support and resolved technical issues.
-- Maintained enterprise systems and core banking applications.
-- Assisted in network troubleshooting and system updates.
+- **Framework**: [Next.js 16](https://nextjs.org/) with Turbopack
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **UI Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Form Handling**: Server actions with validation
+- **Analytics**: Google Analytics + Vercel Analytics
+- **Deployment**: [Vercel](https://vercel.com)
 
-### Office Accountant & IT Assistant @ VOI WINNERS HOUSING COOPERATIVE SOCIETY LIMITED
-*(May 2024 - Jan 2025)*
-- Managed financial operations, including reconciliation and billing.
-- Led IT infrastructure management and digital communication strategies.
-- Oversaw real estate property management and tenant interactions.
+## 🔧 Getting Started
 
-### Junior Software Developer Intern @ [NUMERAL IOT LIMITED](https://numeraliot.com)
-*(Jun 2022 - Oct 2022)*
-- Developed web applications using AngularJS.
-- Managed web hosting (cPanel) and Windows Server environments.
+To get started with your own portfolio website:
 
-## 🛠️ Featured Projects
+1. Clone this repository:
 
-### [AI Banking Analyst](https://github.com/fytroy/AI-BankingAnalyst-TexttoSQL-0.2)
-A Generative AI application analyzing professional-grade Tier 1 Banking Data Warehouse. It translates natural language questions into MS-SQL queries to generate business insights.
+   ```bash
+   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
+   cd my-portfolio
+   ```
 
-### [Financial Data Pipeline](https://github.com/fytroy/Automated_Currency_Exchange_Rate_ETL_Pipeline)
-An automated ETL pipeline that scrapes financial news and fetches exchange rates, loading processed data into Google BigQuery for analysis.
+2. Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
 
-### [Banking Data Warehouse](https://github.com/fytroy/BankingDataWarehouseProject)
-A comprehensive data warehouse solution designed to provide insights into transactional data, support fraud detection, and facilitate operational reporting.
+3. Install dependencies:
 
-### [Customer Segmentation](https://github.com/fytroy/ecommerce_analysis)
-E-commerce analysis using Python to identify high-value customer groups through clustering and sales forecasting.
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-### [Streamlit Dashboard](https://github.com/fytroy/personal_dashboard)
-A personal data hub integrating external APIs and Google Gemini AI for automated news and document summarization.
+4. Start the development server:
 
-## 📜 Certifications
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-- **Associate Data Engineer** - DataCamp
-- **SQL Query Optimization** - Simplilearn
-- **AI Fluency: Framework** - Anthropic Education
-- **Model Context Protocol** - Anthropic Education
-- **Generative AI Fundamentals** - Databricks Academy
-- **Data Analytics Essentials** - Cisco Academy
-- **Power BI for Beginners** - Simplilearn
-- **OCI 2025 Architect Associate** - Oracle
-- **CDMP - Associate** - Udemy Academy
+5. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
 
-## 📫 Contact & Socials
+## 🎨 Customization
 
-- **GitHub:** [fytroy](https://github.com/fytroy)
-- **Twitter:** [Twitter](https://twitter.com/)
-- **Portfolio:** [rodneyroygitonga.io](https://fytroy.github.io/roygitonga.io/)
+Easily personalize your portfolio using the configuration files below:
+
+| Section            | How to Customize                                       | File Location             |
+| ------------------ | ------------------------------------------------------ | ------------------------- |
+| **Personal Info**  | Edit your name, bio, and social links                  | `config/site.ts`          |
+| **Skills**         | Add or modify the technologies and skills you showcase | `config/skills.ts`        |
+| **Projects**       | Highlight your technical projects                      | `config/projects.ts`      |
+| **Experience**     | Add your work and professional experience              | `config/experience.ts`    |
+| **Contributions**  | Display open-source/community contributions            | `config/contributions.ts` |
+| **Colors & Theme** | Customize color palette and themes                     | `tailwind.config.js`      |
+
+All configuration files are well-organized and documented for a smooth customization process.
+
+## 🌟 Features In Detail
+
+### Professional Experience Timeline
+
+An interactive, animated timeline that showcases your career journey with expandable sections for details about each position and company.
+
+### Project Showcase
+
+Display your technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
+
+### Skills Showcase
+
+Visually represent your technical and soft skills with customizable ratings and categories.
+
+### Contact Form Integration
+
+A ready-to-use contact form that can connect to various backend services.
+
+### SEO Optimization
+
+Built-in SEO features with proper meta tags, structured data, and semantic HTML.
+
+## 📱 Performance and Responsiveness
+
+![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
+![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
+
+This template is optimized for:
+
+- 100% Lighthouse score
+- Excellent Core Web Vitals metrics
+- Responsive design across all device sizes
+- Fast loading times with proper image optimization
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgements
+
+- Design inspired by modern portfolio best practices
+- Built by [Naman Barkiya](https://github.com/namanbarkiya)
+- Icons from [Lucide](https://lucide.dev/)
+
+## 💻 Deploy on Vercel
+
+The easiest way to deploy your portfolio is using [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
 
 ---
-*Built with Next.js 16, React 19, TypeScript, and Tailwind CSS.*
+
+**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
