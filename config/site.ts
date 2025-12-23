@@ -9,9 +9,9 @@ export const siteConfig = {
     twitter: "https://twitter.com/", // Placeholder or remove if not available
     github: "https://github.com/fytroy",
   },
-  ogImage: "https://fytroy.github.io/roygitonga.io/img/rodney_photo.jpg",
-  iconIco: "/favicon.ico", // Using local default for now
-  logoIcon: "/favicon.ico", // Using local default for now
+  ogImage: "/rodney-profile.jpg",
+  iconIco: "/logo.png", // Using updated logo
+  logoIcon: "/logo.png", // Using updated logo
   keywords: [
     "Rodney Roy Gitonga",
     "Data Analytics Officer",
