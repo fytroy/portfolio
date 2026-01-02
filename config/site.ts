@@ -6,7 +6,7 @@ export const siteConfig = {
     "Rodney Roy Gitonga's portfolio - Data Analytics Officer specializing in transforming complex financial and operational data into actionable business insights.",
   url: "https://fytroy.github.io/roygitonga.io/",
   links: {
-    twitter: "https://twitter.com/", // Placeholder or remove if not available
+    // twitter: "https://twitter.com/", // Placeholder or remove if not available
     github: "https://github.com/fytroy",
   },
   ogImage: "/rodney-profile.jpg",

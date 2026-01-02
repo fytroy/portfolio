@@ -1,6 +1,6 @@
 # Portfolio Website Navigation Overview
 
-This document outlines the navigation structure of the portfolio website [https://nbarkiya.xyz/](https://nbarkiya.xyz/), detailing each page and its primary sections to facilitate understanding and interaction.
+This document outlines the navigation structure of the portfolio website [https://fytroy.github.io/roygitonga.io/](https://fytroy.github.io/roygitonga.io/), detailing each page and its primary sections to facilitate understanding and interaction.
 
 ---
 
@@ -8,12 +8,12 @@ This document outlines the navigation structure of the portfolio website [https:
 
 The website's main navigation menu is accessible from all pages and includes the following links:
 
-1. **Home**: [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
-2. **Skills**: [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
-3. **Projects**: [https://nbarkiya.xyz/projects](https://nbarkiya.xyz/projects)
-4. **Experience**: [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
-5. **Contributions**: [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
-6. **Contact**: [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+1. **Home**: [https://fytroy.github.io/roygitonga.io/](https://fytroy.github.io/roygitonga.io/)
+2. **Skills**: [https://fytroy.github.io/roygitonga.io/skills](https://fytroy.github.io/roygitonga.io/skills)
+3. **Projects**: [https://fytroy.github.io/roygitonga.io/projects](https://fytroy.github.io/roygitonga.io/projects)
+4. **Experience**: [https://fytroy.github.io/roygitonga.io/experience](https://fytroy.github.io/roygitonga.io/experience)
+5. **Certifications**: [https://fytroy.github.io/roygitonga.io/contributions](https://fytroy.github.io/roygitonga.io/contributions)
+6. **Contact**: [https://fytroy.github.io/roygitonga.io/contact](https://fytroy.github.io/roygitonga.io/contact)
 
 ---
 
@@ -21,60 +21,59 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 1. Home
 
-**URL:** [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
+**URL:** [https://fytroy.github.io/roygitonga.io/](https://fytroy.github.io/roygitonga.io/)
 
 **Sections:**
 
-- **Introduction**: Presents the individual's name and role (e.g., "Full Stack Developer").
-- **Skills Overview**: Highlights key skills with a prompt to view all skills.
-- **Projects Highlights**: Summarizes notable technical projects with links to detailed descriptions.
-- **Experience Highlights**: Summarizes professional work experience with links to detailed descriptions.
-- **Contributions Summary**: Lists recent open-source contributions with links for more information.
+- **Introduction**: Presents Rodney Roy Gitonga as a Data Analytics Officer.
+- **Skills Overview**: Highlights key skills like Power BI, SQL, and Python.
+- **Projects Highlights**: Summarizes notable technical projects like the AI Banking Analyst.
+- **Experience Highlights**: Summarizes professional work experience including roles at Gulf African Bank.
+- **Certifications Summary**: Lists recent certifications.
 
 ### 2. Skills
 
-**URL:** [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
+**URL:** [https://fytroy.github.io/roygitonga.io/skills](https://fytroy.github.io/roygitonga.io/skills)
 
 **Sections:**
 
-- **Technical Skills**: Enumerates various technologies and tools, each accompanied by a brief description.
+- **Technical Skills**: Enumerates various technologies and tools such as Power BI, Data Analysis, SQL, and Python.
 
 ### 3. Projects
 
-**URL:** [https://nbarkiya.xyz/projects](https://nbarkiya.xyz/projects)
+**URL:** [https://fytroy.github.io/roygitonga.io/projects](https://fytroy.github.io/roygitonga.io/projects)
 
 **Sections:**
 
-- **Technical Projects**: Details technical projects with descriptions, technologies used, and links to read more.
+- **Technical Projects**: Details technical projects including "AI Banking Analyst", "Financial Data Pipeline", and "Banking Data Warehouse".
 
 ### 4. Experience
 
-**URL:** [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
+**URL:** [https://fytroy.github.io/roygitonga.io/experience](https://fytroy.github.io/roygitonga.io/experience)
 
 **Sections:**
 
-- **Professional Experience**: Details work experience with company information, roles, and achievements.
+- **Professional Experience**: Details work experience at Gulf African Bank, Voi Winners Housing Cooperative, and Numeral IoT Limited.
 
-### 5. Contributions
+### 5. Certifications
 
-**URL:** [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
+**URL:** [https://fytroy.github.io/roygitonga.io/contributions](https://fytroy.github.io/roygitonga.io/contributions)
 
 **Sections:**
 
-- **Open-Source Contributions**: Lists contributions with descriptions and links to the respective repositories.
+- **Certifications List**: Lists professional certifications including "Associate Data Engineer", "SQL Query Optimization", and others.
 
 ### 6. Contact
 
-**URL:** [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+**URL:** [https://fytroy.github.io/roygitonga.io/contact](https://fytroy.github.io/roygitonga.io/contact)
 
 **Sections:**
 
-- **Contact Form**: Fields for name, email, message, and optional social links.
-- **GitHub Link**: Provides a link to the source code of the website's template.
+- **Contact Information**: Provides links to GitHub, LinkedIn, and email.
 
 ---
 
 ## Additional Features
 
-- **Theme Toggle**: Allows users to switch between light and dark themes.
+- **Theme Toggle**: Allows users to switch between light, dark, and other themes.
 - **Responsive Design**: Ensures optimal viewing across various devices.
