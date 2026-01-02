@@ -88,7 +88,9 @@ export type ValidSkills =
   | "Scikit-learn"
   | "Data Storytelling"
   | "Data Modeling"
-  | "DAX";
+  | "DAX"
+  | "Swagger UI"
+  | "SQL Server";
 
 export type ValidCategory =
   | "Full Stack"
@@ -101,7 +103,9 @@ export type ValidCategory =
   | "Data Analytics"
   | "Business Intelligence"
   | "Automation"
-  | "Machine Learning";
+  | "Machine Learning"
+  | "DevOps"
+  | "Open Source";
 
 export type ValidExpType = "Personal" | "Professional";
 
