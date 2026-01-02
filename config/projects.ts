@@ -58,7 +58,7 @@ export const Projects: ProjectInterface[] = [
     id: "financial-data-pipeline",
     companyName: "Financial Data Pipeline",
     type: "Personal",
-    category: ["Data Analytics", "Backend"],
+    category: ["Data Analytics", "Backend", "Open Source"],
     shortDescription: "Data pipeline that extracts, transforms, and loads financial data from web scraping and APIs.",
     websiteLink: "https://github.com/fytroy/Automated_Currency_Exchange_Rate_ETL_Pipeline",
     githubLink: "https://github.com/fytroy/Automated_Currency_Exchange_Rate_ETL_Pipeline",
